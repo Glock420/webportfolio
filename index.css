@@ -25,6 +25,10 @@ body {
 	background-color: rgb(0, 185, 99);
 }
 
+#myprojects {
+	border-radius: 20px;
+}
+
 #mytools {
 	height: 80px;
 	width: 80px;
