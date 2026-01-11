@@ -43,7 +43,7 @@ ul li{
 	margin: 1rem;
 }
 
-.navbar a {
+.navbar .logo, .navbar .menu {
 	text-decoration: none;
 	color: #D9D9D9;
 	transition-duration: 0.3s;
@@ -63,10 +63,10 @@ ul li{
 	background-color: rgb(0, 185, 99) !important;
 }
 
-#logo {
+/* #logo {
 	height: 49px;
 	width: 49px;
-}
+} */
 
 #links a {
 	color: rgb(48, 48, 48) !important;
