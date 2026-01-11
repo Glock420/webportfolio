@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'GoogleSansFlex';
+  src: url('.assets/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf') format('ttf');
+}
+
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "GoogleSansFlex", "Montserrat", sans-serif;
 	background-color: rgb(32, 32, 32);
 }
 
