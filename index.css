@@ -3,9 +3,14 @@
   src: url('./assets/fonts/Google_Sans_Flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'TikTokSans';
+  src: url('./assets/fonts/TikTok_Sans/TikTokSans-VariableFont_opsz,slnt,wdth,wght.ttf') format('truetype');
+}
+
 body {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'GoogleSansFlex', 'Times New Roman';
+	font-family: 'TikTokSans', 'GoogleSansFlex', 'Times New Roman';
 	background-color: rgb(32, 32, 32);
 }
 
