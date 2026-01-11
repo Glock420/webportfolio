@@ -15,9 +15,9 @@
 }
 
 body {
-	font-family: 'TikTokSans', 'GoogleSansFlex', 'Montserrat', sans-serif;
+	font-family: 'TikTokSans', 'GoogleSansFlex', sans-serif;
 	background-color: rgb(32, 32, 32);
-	color: #FFFFFF;
+	color: #D9D9D9;
 	letter-spacing: 0.5px;
 }
 
@@ -43,14 +43,19 @@ ul li{
 	margin: 1rem;
 }
 
-ul li a {
+.navbar a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #D9D9D9;
 	transition-duration: 0.3s;
 }
 
-ul li a:hover {
+.navbar .logo:hover {
 	color: #00D46F;
+}
+
+.navbar .menu:hover {
+	/* color: #00D46F; */
+	color: #919191;
 }
 /* NAVBAR */
 
