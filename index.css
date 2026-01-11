@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'GoogleSansFlex';
-  src: url('./assets/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf') format('ttf');
+  src: url('./assets/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf') format('truetype');
 }
 
 body {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'GoogleSansFlex';
+	font-family: 'GoogleSansFlex', 'Times New Roman';
 	background-color: rgb(32, 32, 32);
 }
 
