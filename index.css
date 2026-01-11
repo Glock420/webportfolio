@@ -9,8 +9,7 @@
 }
 
 body {
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'TikTokSans', 'Times New Roman';
+	font-family: 'TikTokSans', 'GoogleSansFlex', 'Montserrat', sans-serif;
 	background-color: rgb(32, 32, 32);
 }
 
