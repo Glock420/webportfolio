@@ -76,7 +76,11 @@ ul li{
 }
 
 .about-text h1 {
-	line-height: 0.7;
+	margin: 0;
+}
+
+.about-text h3 {
+	margin-bottom: 1.5rem;
 }
 
 .about-image {
