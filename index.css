@@ -68,7 +68,8 @@ ul li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 7rem 20rem 4rem;
+	padding: 7rem 20rem 3rem;
+	border-bottom: 1px solid rgb(70, 70, 70);
 }
 
 .about-text {
@@ -95,6 +96,16 @@ ul li{
 }
 /* ABOUT */
 
+/* PROJECTS */
+#projects {
+	padding: 3rem 20rem 3rem;
+}
+
+#projects h1 {
+	text-align: center;
+}
+/* PROJECTS */
+
 #navigation {
 	background-color: rgb(0, 185, 99) !important;
 }
@@ -113,9 +124,9 @@ ul li{
 	width: 300px;
 }
 
-#projects {
+/* #projects {
 	background-color: rgb(0, 185, 99);
-}
+} */
 
 #myprojects {
 	border-radius: 20px;
