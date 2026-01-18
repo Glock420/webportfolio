@@ -28,7 +28,7 @@ body {
 	top: 0;
 	display: flex;
 	justify-content: space-around;
-	height: 3.5rem;
+	height: 3.5em;
 	width: 100%;
 	background-color: rgb(32, 32, 32);
 	border-bottom: 1px solid rgb(70, 70, 70);
@@ -45,7 +45,7 @@ ul {
 
 ul li{
 	display: inline-block;
-	margin: 1rem;
+	margin: 1em;
 }
 
 .navbar .logo, .navbar .menu {
@@ -98,11 +98,43 @@ ul li{
 
 /* PROJECTS */
 #projects {
-	padding: 3rem 20rem 3rem;
+	padding: 3rem 0;
 }
 
 #projects h1 {
 	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.carousel {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	width: 60em;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+.slides {
+	position: relative;
+	width: 100%;
+}
+
+.slide {
+	display: none;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slides img {
+	width: 100%;
 }
 /* PROJECTS */
 
