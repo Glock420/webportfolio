@@ -10,7 +10,6 @@ function showSlide(index) {
     });
 }
 
-// Show initial slide
 showSlide(currentIndex);
 
 prevBtn.addEventListener('click', () => {
