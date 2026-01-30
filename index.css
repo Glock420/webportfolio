@@ -16,7 +16,7 @@
 
 body {
 	font-family: 'TikTokSans', 'GoogleSansFlex', sans-serif;
-	background-color: rgb(32, 32, 32);
+	background-color: #202020;
 	color: #D9D9D9;
 	font-size: 1.1rem;
 	letter-spacing: 0.5px;
@@ -31,7 +31,7 @@ body {
 	justify-content: space-around;
 	height: 3.5em;
 	width: 100%;
-	background-color: rgb(32, 32, 32);
+	background-color: #202020;
 	border-bottom: 1px solid rgb(70, 70, 70);
 }
 
@@ -70,7 +70,7 @@ ul li{
 	justify-content: center;
 	align-items: center;
 	padding: 7rem 20rem 3rem;
-	border-bottom: 1px solid rgb(70, 70, 70);
+	border-bottom: 1px solid #464646;
 }
 
 .about-text {
@@ -90,8 +90,8 @@ ul li{
 }
 
 .about-image img {
-	height: 250px;
-	width: 250px;
+	height: 15em;
+	width: 15em;
 	border-radius: 50%;
 	object-fit: cover;
 }
@@ -107,6 +107,12 @@ ul li{
 	margin-bottom: 3rem;
 }
 
+.carousel-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .carousel {
 	position: relative;
 	z-index: 0;
@@ -114,7 +120,7 @@ ul li{
 	align-items: center;
 	overflow: hidden;
 	width: 60em;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .slides {
@@ -130,26 +136,26 @@ ul li{
 }
 
 button.prev, button.next {
-	position: absolute;
+	transition-duration: 0.3s;
 	z-index: 1;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: #D9D9D9;
 	border: none;
-	color: white;
-	padding: 0.2em 0.7em;
+	color: #202020;
+	padding: 0.3em 0.8em;
 	border-radius: 50%;
 	font-size: 1em;
 }
 
 button.prev:hover, button.next:hover {
-  	background-color: rgba(0,0,0,0.8);
+  	background-color: #00D46F;
 }
 
 button.prev {
-	left: 10px;
+	margin-right: 1em;
 }
 
 button.next {
-	right: 10px;
+	margin-left: 1em;
 }
 /* PROJECTS */
 
