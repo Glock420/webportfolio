@@ -135,7 +135,7 @@ button.prev, button.next {
 	background-color: rgba(0, 0, 0, 0.5);
 	border: none;
 	color: white;
-	padding: 1em;
+	padding: 0.2em 0.7em;
 	border-radius: 50%;
 	font-size: 1em;
 }
